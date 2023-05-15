@@ -37,6 +37,15 @@ body {
   text-decoration: none;
 }
 
+.button {
+  color: var(--button-color);
+  background-color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .list {
   list-style: none;
 }
@@ -75,12 +84,8 @@ body {
 }
 
 /* Contacts */
-.contacts {
-  list-style-type: none;
-}
 .contacts a {
   font-style: normal;
-  text-decoration: none;
 }
 .contacts a:link,
 .contacts a:visited {
@@ -89,16 +94,6 @@ body {
 .contacts a:hover,
 .contacts a:active {
   color: var(--link-active);
-}
-
-/* Buttons */
-.button {
-  color: var(--button-color);
-  background-color: var(--accent-color);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 /* Order Service */
@@ -127,9 +122,6 @@ body {
 .features h2 {
   opacity: 0;
 }
-.features-list {
-  list-style-type: none;
-}
 .features-list-item h3 {
   font-weight: 500;
   font-size: 20px;
@@ -152,9 +144,6 @@ body {
   line-height: 1.11;
   color: var(--secondary-text-color-1);
 }
-.team-list {
-  list-style-type: none;
-}
 .team-list-item h3 {
   font-weight: 500;
   font-size: 20px;
@@ -165,9 +154,6 @@ body {
 /* Filters */
 .filters h2 {
   opacity: 0;
-}
-.filters-list {
-  list-style-type: none;
 }
 .filters-list-item .button {
   font-weight: 500;
@@ -183,9 +169,6 @@ body {
 
 .projects h2 {
   opacity: 0;
-}
-.projects-list {
-  list-style-type: none;
 }
 .projects-list-item h3 {
   font-weight: 500;
