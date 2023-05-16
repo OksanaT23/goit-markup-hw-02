@@ -1,29 +1,32 @@
 /* Variables */
 :root {
+  /* Фон кнопка - Button background #E7E9FC */
   /* Основний колір тексту - The main color of the text #434455 */
   /* Вторинний колір тексту - Secondary text color-1 #2E2F42 */
   /* Вторинний колір тексту - Secondary text color-2 #F4F4FD */
+  /* Акцент - Accent color #4D5AE5 */
+  /* Link-active: #404bbf */
+  /* Button-text-color: #FFFFFF */
   /* Задній фон основний - The background is basic #E5E5E5 */
   /* Задній фон вторинний - The background is secondary #2E2F42 */
-  /* Акцент - Accent color #4D5AE5 */
-  /* Фон кнопка - Button background #E7E9FC */
-  /* Колір кнопки - Button color #FFFFFF */
-  --default-background-color: #fff;
+  /* Button-hover-bg-color: var(--link-active) */
+
   --button-background: #e7e9fc;
   --the-main-color-of-the-text: #434455;
   --secondary-text-color-1: #2e2f42;
   --secondary-text-color-2: #f4f4fd;
   --accent-color: #4d5ae5;
   --link-active: #404bbf;
-  --text-color-over-secondary: #fff;
-  --button-text-color: #fff;
+  --button-text-color: #ffffff;
+  --the-background-is-basic: #e5e5e5;
+  --the-background-is-secondary: #2e2f42;
   --button-default-bg-color: var(--accent-color);
   --button-hover-bg-color: var(--link-active);
 }
 
 /* Body */
 body {
-  background-color: var(--default-background-color);
+  background-color: var(--button-text-color);
   color: var(--the-main-color-of-the-text);
 
   font-family: Roboto, sans-serif;
@@ -38,7 +41,7 @@ body {
 }
 
 .button {
-  color: var(--button-color);
+  color: var(--button-text-color);
   background-color: var(--accent-color);
 
   font-weight: 500;
@@ -105,7 +108,7 @@ body {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  color: var(--text-color-over-secondary);
+  color: var(--button-text-color);
 }
 .order-service .button {
   font-weight: 500;
@@ -187,7 +190,7 @@ body {
   padding: 100px 156px;
 }
 .footer .logo span {
-  color: var(--secondary-text-color-2);
+  color: var(--accent-color);
 }
 .footer p {
   color: var(--secondary-text-color-2);
