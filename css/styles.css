@@ -164,7 +164,9 @@ body {
 }
 
 /* Our Team */
+
 .team h2 {
+  background-color: var(--secondary-text-color-2);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -172,14 +174,13 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-text-color-1);
-  background-color: var(--secondary-text-color-2);
 }
 .team-list-item h3 {
-  background-color: var(--button-text-color);
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  background-color: var(--button-text-color);
   color: var(--secondary-text-color-1);
 }
 
