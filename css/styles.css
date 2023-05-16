@@ -43,6 +43,9 @@ body {
 .button {
   color: var(--button-text-color);
   background-color: var(--accent-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 
   font-weight: 500;
   font-size: 16px;
@@ -51,6 +54,14 @@ body {
 
 .list {
   list-style: none;
+}
+
+.header-3 {
+  letter-spacing: 0.02em;
+}
+.services-options {
+  text-align: center;
+  text-transform: capitalize;
 }
 
 /* Logo */
@@ -87,7 +98,7 @@ body {
 }
 
 /* Contacts */
-.contacts a {
+.contacts {
   font-style: normal;
 }
 .contacts a:link,
@@ -95,7 +106,7 @@ body {
   color: var(--the-main-color-of-the-text);
 }
 .contacts a:hover,
-.contacts a:active {
+.contacts a:focus {
   color: var(--link-active);
 }
 
@@ -105,16 +116,21 @@ body {
   padding: 188px;
 }
 .order-service h1 {
+  text-align: center;
+  letter-spacing: 0.02em;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: var(--button-text-color);
 }
 .order-service .button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   padding: 16px 32px;
+  letter-spacing: 0.04em;
   color: var(--button-text-color);
   background-color: var(--button-default-bg-color);
+  cursor: pointer;
 }
 .order-service .button:hover,
 .order-service .button:focus {
@@ -145,12 +161,18 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--secondary-text-color-1);
+  background-color: var(--secondary-text-color-2);
 }
 .team-list-item h3 {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  background-color: var(--button-text-color);
   color: var(--secondary-text-color-1);
 }
 
@@ -190,7 +212,7 @@ body {
   padding: 100px 156px;
 }
 .footer .logo span {
-  color: var(--accent-color);
+  color: var(--secondary-text-color-2);
 }
 .footer p {
   color: var(--secondary-text-color-2);
