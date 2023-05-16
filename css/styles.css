@@ -177,9 +177,6 @@ body {
 }
 
 /* Filters */
-.filters h2 {
-  opacity: 0;
-}
 .filters-list-item .button {
   font-weight: 500;
   color: var(--accent-color);
@@ -192,10 +189,7 @@ body {
   background-color: var(--link-active);
 }
 
-.projects h2 {
-  opacity: 0;
-}
-.projects-list-item h3 {
+.projects-list-item h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
