@@ -197,6 +197,11 @@ body {
   background-color: var(--button-text-color);
   color: var(--secondary-text-color-1);
 }
+.feature-text {
+  ont-size: 16px;
+  line-height: 1.5;
+  color: var(--the-main-color-of-the-text);
+}
 
 /* Filters */
 .filters-list-item .button {
