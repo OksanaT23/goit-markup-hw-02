@@ -189,7 +189,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-1);
 }
-.header-2 h3 {
+.subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -198,7 +198,7 @@ body {
   color: var(--secondary-text-color-1);
 }
 .feature-text {
-  ont-size: 16px;
+  font-size: 16px;
   line-height: 1.5;
   color: var(--the-main-color-of-the-text);
 }
