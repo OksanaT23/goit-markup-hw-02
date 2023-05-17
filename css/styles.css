@@ -60,6 +60,8 @@ body {
 }
 
 .title-subtitle {
+  text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
 }
 
@@ -165,6 +167,10 @@ body {
 
 /* Our Team */
 
+.team {
+  background-color: var(--secondary-text-color-2);
+}
+
 .team h2 {
   background-color: var(--secondary-text-color-2);
   font-weight: 700;
@@ -173,6 +179,14 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--secondary-text-color-1);
+}
+.team-list-item {
+  background-color: var(--button-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color-1);
 }
 .header-2 h3 {
