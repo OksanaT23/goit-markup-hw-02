@@ -56,14 +56,14 @@ body {
   list-style: none;
 }
 
-.header-1 {
+.title {
 }
 
-.header-2 {
+.title-subtitle {
   letter-spacing: 0.02em;
 }
 
-.header-3 {
+.subtitle {
   letter-spacing: 0.02em;
 }
 .services-options {
@@ -175,9 +175,9 @@ body {
   text-transform: capitalize;
   color: var(--secondary-text-color-1);
 }
-.team-list-item h3 {
+.header-2 h3 {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   background-color: var(--button-text-color);
