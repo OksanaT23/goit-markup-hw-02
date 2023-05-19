@@ -40,7 +40,6 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.04em;
   cursor: pointer;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -127,7 +126,6 @@ body {
 /* Order Service */
 .order-service {
   background-color: var(--secondary-text-color-1);
-  /* padding: 188px; */
 }
 .order-service .main-title {
   text-align: center;
@@ -138,7 +136,6 @@ body {
   color: var(--button-text-color);
 }
 .order-service .button {
-  /* padding: 16px 32px; */
   color: var(--button-text-color);
   background-color: var(--button-default-bg-color);
 }
@@ -148,8 +145,10 @@ body {
 }
 
 /* Features */
-.features .title-subtitle {
-  opacity: 0;
+.feature-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Services */
@@ -161,7 +160,6 @@ body {
 }
 
 /* Our Team */
-
 .team {
   background-color: var(--secondary-text-color-2);
 }
@@ -179,18 +177,11 @@ body {
   background-color: var(--button-text-color);
 }
 
-.feature-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
 /* Filters */
 .filters-list-item .button {
   font-weight: 500;
   color: var(--accent-color);
   background-color: var(--secondary-text-color-2);
-  /* padding: 12px 24px; */
 }
 .filters-list-item .button:hover,
 .filters-list-item .button:focus {
@@ -220,7 +211,6 @@ body {
 /* Footer */
 .footer {
   background-color: var(--secondary-text-color-1);
-  /* padding: 100px 156px; */
 }
 .footer .logo span {
   color: var(--secondary-text-color-2);
