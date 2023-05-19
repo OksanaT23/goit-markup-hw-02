@@ -76,7 +76,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .logo:link,
 .logo:visited,
 .logo:hover,
@@ -85,7 +84,10 @@ body {
 }
 .nav-link {
   line-height: 1.5;
+  font-weight: 500;
   letter-spacing: 0.02em;
+  color: var(--secondary-text-color-1);
+}
 }
 .logo span {
   color: var(--secondary-text-color-1);
@@ -201,13 +203,6 @@ body {
   color: var(--the-main-color-of-the-text);
 }
 
-/* Portfolio */
-.nav-link {
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: var(--secondary-text-color-1);
-}
 /* Footer */
 .footer {
   background-color: var(--secondary-text-color-1);
