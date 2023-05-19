@@ -82,6 +82,11 @@ body {
 .logo:focus {
   color: var(--accent-color);
 }
+.logo .part-two {
+  color: var(--secondary-text-color-1);
+}
+
+/* Navigation */
 .nav-link {
   line-height: 1.5;
   font-weight: 500;
@@ -89,21 +94,12 @@ body {
   color: var(--secondary-text-color-1);
 }
 
-.logo .part-two {
+.nav-link:link,
+.nav-link:visited {
   color: var(--secondary-text-color-1);
 }
-
-/* Navigation */
-.nav-links .link {
-  font-weight: 500;
-  text-decoration: none;
-}
-.nav-links .link:link,
-.nav-links .link:visited {
-  color: var(--secondary-text-color-1);
-}
-.nav-links .link:hover,
-.nav-links .link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--link-active);
 }
 
