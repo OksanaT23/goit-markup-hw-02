@@ -88,8 +88,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-1);
 }
-}
-.logo span {
+
+.logo .part-two {
   color: var(--secondary-text-color-1);
 }
 
@@ -207,7 +207,7 @@ body {
 .footer {
   background-color: var(--secondary-text-color-1);
 }
-.footer .logo span {
+.footer .logo .part-two {
   color: var(--secondary-text-color-2);
 }
 .footer .footer-text {
