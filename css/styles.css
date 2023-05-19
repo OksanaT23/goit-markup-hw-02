@@ -50,9 +50,6 @@ body {
   list-style: none;
 }
 
-.title {
-}
-
 .title-subtitle {
   text-align: center;
   text-transform: capitalize;
@@ -80,11 +77,16 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .logo:link,
 .logo:visited,
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
+}
+.nav-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .logo span {
   color: var(--secondary-text-color-1);
@@ -125,7 +127,7 @@ body {
 /* Order Service */
 .order-service {
   background-color: var(--secondary-text-color-1);
-  padding: 188px;
+  /* padding: 188px; */
 }
 .order-service .mein-title {
   text-align: center;
@@ -136,7 +138,7 @@ body {
   color: var(--button-text-color);
 }
 .order-service .button {
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   color: var(--button-text-color);
   background-color: var(--button-default-bg-color);
 }
@@ -188,7 +190,7 @@ body {
   font-weight: 500;
   color: var(--accent-color);
   background-color: var(--secondary-text-color-2);
-  padding: 12px 24px;
+  /* padding: 12px 24px; */
 }
 .filters-list-item .button:hover,
 .filters-list-item .button:focus {
@@ -218,7 +220,7 @@ body {
 /* Footer */
 .footer {
   background-color: var(--secondary-text-color-1);
-  padding: 100px 156px;
+  /* padding: 100px 156px; */
 }
 .footer .logo span {
   color: var(--secondary-text-color-2);
