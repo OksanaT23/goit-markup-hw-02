@@ -129,7 +129,7 @@ body {
   background-color: var(--secondary-text-color-1);
   /* padding: 188px; */
 }
-.order-service .main-title {
+.order-service .mein-title {
   text-align: center;
   letter-spacing: 0.02em;
   font-weight: 700;
@@ -211,7 +211,7 @@ body {
 }
 
 /* Portfolio */
-.link {
+.nav-link {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
